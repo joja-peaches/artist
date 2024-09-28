@@ -2,5 +2,17 @@
   font-family: "Linebeam";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/Linebeam.ttf");
+  src: url("./fonts/Linebeam.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fraktur Shadowed";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/FrakturShadowed.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jacquarda Bastarada 9";
+  src: url("./fonts/JacquardaBastarda9-Regular.ttf") format("truetype");
 }

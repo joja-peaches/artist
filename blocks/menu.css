@@ -9,8 +9,9 @@
   position: absolute;
   top: 30vh;
   z-index: 1;
-  background-color: #f5e80e;
-  width: 500px; /* adjust to control the size */
+  background: rgb(233,86,9);
+background: linear-gradient(90deg, rgba(233,86,9,1) 9%, rgba(245,232,14,1) 50%, rgba(233,86,9,1) 91%);
+  width: 500px;
   aspect-ratio: 1;
   clip-path: polygon(97.3% 66.2%,63.2% 76.94%,33.8% 97.3%,23.06% 63.2%,2.7% 33.8%,36.8% 23.06%,66.2% 2.7%,76.94% 36.8%);
 }
@@ -19,8 +20,9 @@
   position: absolute;
   top: 30vh;
   z-index: 2;
-  background-color: #e95609;
-  width: 500px; /* adjust to control the size */
+  background: rgb(233,86,9);
+  background: linear-gradient(90deg, rgba(233,86,9,1) 9%, rgba(245,232,14,1) 50%, rgba(233,86,9,1) 91%);
+  width: 500px;
   aspect-ratio: 1;
   clip-path: polygon(75.45% 93.04%,45.03% 69.37%,6.96% 75.45%,30.63% 45.03%,24.55% 6.96%,54.97% 30.63%,93.04% 24.55%,69.37% 54.97%);
 }
@@ -43,16 +45,24 @@
   margin: 0;
   padding: 0;
   display: flex;
-  column-gap: 2vh;
+  flex-direction: column;
+  row-gap: 3vh;
 }
 
 .menu__item {
   list-style-type: none;
   z-index: 3;
+  text-align: center;
 }
 
 .menu__link {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Retro Computer", Arial, Helvetica, sans-serif;
   color: #003899;
   text-decoration: none;
+  font-size: 20px;
+}
+
+.menu__link:hover {
+  color: #fff;
+  transition-duration: 4s;
 }

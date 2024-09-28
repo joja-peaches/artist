@@ -16,3 +16,13 @@
   font-family: "Jacquarda Bastarada 9";
   src: url("./fonts/JacquardaBastarda9-Regular.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Rainy Hearts";
+  src: url("./fonts/RainyHearts.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Retro Computer";
+  src: url("./fonts/RetroComputer.ttf") format("truetype");
+}

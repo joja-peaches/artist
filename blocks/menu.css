@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__title {
+  font-family: "Linebeam";
+}
+
+.menu__nav {
+
+}
+
+.menu__link {
+  list-style-type: none;
+}

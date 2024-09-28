@@ -53,16 +53,30 @@ background: linear-gradient(90deg, rgba(233,86,9,1) 9%, rgba(245,232,14,1) 50%, 
   list-style-type: none;
   z-index: 3;
   text-align: center;
+  width: 200px;
+  padding: 13px 4px;
+  border: outset;
+  border-color: #003899;
+  border-radius: 3px;
+}
+
+.menu__item:hover {
+  transition: all .8s ease-out;
+  background-color: rgba(0, 56, 153, .9);
+}
+
+.menu__item:active {
+  border: inset;
 }
 
 .menu__link {
   font-family: "Retro Computer", Arial, Helvetica, sans-serif;
-  color: #003899;
+  color: rgb(0, 56, 153);
   text-decoration: none;
   font-size: 20px;
 }
 
 .menu__link:hover {
   color: #fff;
-  transition-duration: 4s;
+  transition: all .6s ease-out;
 }

@@ -17,3 +17,6 @@ function animateStar2 () {
 
 animateStar1();
 animateStar2();
+
+
+// TEST TEST TEST

@@ -6,4 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 4px dashed #003899;
+  box-sizing: border-box;
 }

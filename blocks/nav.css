@@ -1,0 +1,21 @@
+.nav {
+    padding: 20px;
+    border: 4px dashed #003899;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    box-sizing: border-box;
+}
+
+.nav__items {
+    padding: 0;
+}
+
+.nav__item {
+    list-style: none;
+    font-family: "Jacquarda Bastarada 9", Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #003899;
+    padding-bottom: 8px;
+}

@@ -1,0 +1,14 @@
+.content {
+    border-top: 4px dashed #003899;
+    border-right: 4px dashed #003899;
+    border-bottom: 4px dashed #003899;
+    height: 60vh;
+    width: 60vh;
+    box-sizing: border-box;
+}
+
+.content__landing-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

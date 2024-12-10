@@ -5,6 +5,8 @@ const commercialButton = document.getElementById("commercial-button");
 
 let angle = 0;
 
+//star animation
+
 function animateStar1 () {
   angle = (angle + .2) % 360;
   starGradient1.style.background = `linear-gradient(${angle}deg, rgb(245,232,14), rgb(245,0,40))`;

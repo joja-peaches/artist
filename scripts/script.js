@@ -22,20 +22,20 @@ animateStar2();
 
 fineArtButton.addEventListener("mouseover", () => {
   starGradient1.classList.remove("menu__star-1");
-  starGradient1.classList.add("menu__star-1-blinds");
+  starGradient1.classList.add("menu__star-1-fade");
 });
 
 fineArtButton.addEventListener("mouseout", () => {
-  starGradient1.classList.remove("menu__star-1-blinds");
+  starGradient1.classList.remove("menu__star-1-fade");
   starGradient1.classList.add("menu__star-1");
 });
 
 commercialButton.addEventListener("mouseover", () => {
   starGradient2.classList.remove("menu__star-2");
-  starGradient2.classList.add("menu__star-2-blinds");
+  starGradient2.classList.add("menu__star-2-fade");
 });
 
 commercialButton.addEventListener("mouseout", () => {
-  starGradient2.classList.remove("menu__star-2-blinds");
+  starGradient2.classList.remove("menu__star-2-fade");
   starGradient2.classList.add("menu__star-2");
 });

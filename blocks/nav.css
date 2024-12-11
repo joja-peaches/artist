@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.nav__comm {
+    border: 2px solid #003899;
+}
+
 .nav__items {
     padding: 0;
 }
@@ -18,4 +22,10 @@
     letter-spacing: -1px;
     color: #003899;
     padding-bottom: 8px;
+}
+
+.nav__item-comm {
+    font-family: "Retro Computer", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
 }

@@ -12,3 +12,12 @@
     height: 100%;
     object-fit: cover;
 }
+
+.content__landing-image-comm {
+    height: 60vh;
+    width: 60vh;
+    box-sizing: border-box;
+    border-top: 2px solid #003899;
+    border-right: 2px solid #003899;
+    border-bottom: 2px solid #003899;
+}

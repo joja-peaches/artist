@@ -6,9 +6,9 @@
 
 .comm-content__image {
     box-sizing: border-box;
-    border-top: 2px solid rgb(91, 91, 91);
-    border-right: 2px solid rgb(91, 91, 91);
-    border-bottom: 2px solid rgb(91, 91, 91);
+    border-top: 2px solid rgb(0, 41, 47, .6);
+    border-right: 2px solid rgb(0, 41, 47, .6);
+    border-bottom: 2px solid rgb(0, 41, 47, .6);
     width: 100%;
     height: 100%;
     overflow: auto;

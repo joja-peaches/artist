@@ -1,6 +1,5 @@
 .comm-main {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(22, 22, 22) 50%, rgb(0, 0, 0) 100%);
+    background: rgb(0, 0, 0, .5);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -26,7 +25,7 @@
 
 .comm-main__heading {
     align-self: end;
-    font-family: "Urbanist", Arial, Helvetica, sans-serif;
+    font-family: "Retro Computer", Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 1px;

@@ -1,14 +1,11 @@
 .art-nav {
-    padding: 20px;
+    padding: 0 30px;
     border: 4px dashed #003899;
     display: flex;
     align-items: center;
     height: 60vh;
     box-sizing: border-box;
-}
-
-.art-nav__comm {
-    border: 2px solid #003899;
+    width: 40%
 }
 
 .art-nav__items {
@@ -17,14 +14,9 @@
 
 .art-nav__item {
     list-style: none;
-    font-family: "Jacquarda Bastarada 9", Arial, Helvetica, sans-serif;
+    font-family: "Rainy Hearts", Arial, Helvetica, sans-serif;
     font-size: 40px;
     letter-spacing: -1px;
     color: #003899;
     padding-bottom: 8px;
-}
-
-.art-nav__item:hover {
-    font-family: "Urbanist", Arial, Helvetica, sans-serif;
-    letter-spacing: 0;
 }

@@ -1,6 +1,6 @@
 .comm-main {
-    background: rgb(204,204,204);
-    background: linear-gradient(90deg, rgba(204,204,204,1) 0%, rgba(218,218,218,1) 50%, rgba(204,204,204,1) 100%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(22, 22, 22) 50%, rgb(0, 0, 0) 100%);
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -27,9 +27,10 @@
 .comm-main__heading {
     align-self: end;
     font-family: "Urbanist", Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 400;
     letter-spacing: 1px;
-    color: #003899;
+    color: rgb(206, 206, 206);
     margin: 0;
     padding-top: 8px;
 }

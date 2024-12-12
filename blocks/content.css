@@ -3,6 +3,13 @@
     border-right: 4px dashed #003899;
     border-bottom: 4px dashed #003899;
     height: 60vh;
-    width: 60vh;
+    width: 40vw;
     box-sizing: border-box;
+}
+
+.content__image {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    object-fit: cover;
 }

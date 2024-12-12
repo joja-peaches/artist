@@ -1,8 +1,12 @@
 @import url(../blocks/page.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/header.css);
-@import url(../blocks/nav.css);
 @import url(../blocks/main.css);
 @import url(../blocks/menu.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/content.css);
+@import url(../blocks/comm-main.css);
+@import url(../blocks/art-main.css);
+@import url(../blocks/art-nav.css);
+@import url(../blocks/comm-nav.css);
+@import url(../blocks/comm-content.css);

@@ -1,0 +1,22 @@
+.comm-nav {
+    padding: 20px;
+    border: 2px solid #003899;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 60vh;
+    width: 40%;
+}
+
+.comm-nav__items {
+    padding: 0;
+}
+
+.comm-nav__item {
+    list-style: none;
+    font-family: "Urbanist", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #003899;
+    padding-bottom: 8px;
+}

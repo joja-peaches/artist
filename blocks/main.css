@@ -7,13 +7,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.main__art {
-  border: 4px dashed #003899;
-  box-sizing: border-box;
-}
-
-.main__comm {
-  border: 2px solid #003899;
-  box-sizing: border-box;
-}

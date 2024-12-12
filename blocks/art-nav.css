@@ -1,4 +1,4 @@
-.nav {
+.art-nav {
     padding: 20px;
     border: 4px dashed #003899;
     display: flex;
@@ -7,15 +7,15 @@
     box-sizing: border-box;
 }
 
-.nav__comm {
+.art-nav__comm {
     border: 2px solid #003899;
 }
 
-.nav__items {
+.art-nav__items {
     padding: 0;
 }
 
-.nav__item {
+.art-nav__item {
     list-style: none;
     font-family: "Jacquarda Bastarada 9", Arial, Helvetica, sans-serif;
     font-size: 40px;
@@ -24,8 +24,7 @@
     padding-bottom: 8px;
 }
 
-.nav__item-comm {
-    font-family: "Retro Computer", Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    letter-spacing: -1px;
+.art-nav__item:hover {
+    font-family: "Urbanist", Arial, Helvetica, sans-serif;
+    letter-spacing: 0;
 }

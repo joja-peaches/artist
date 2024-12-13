@@ -28,8 +28,16 @@
     font-family: "Retro Computer", Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     color: rgb(206, 206, 206);
     margin: 0;
     padding-top: 8px;
+}
+
+.comm-main__first-name {
+    letter-spacing: 4px;
+}
+
+.comm-main__G {
+    letter-spacing: 5px;
 }

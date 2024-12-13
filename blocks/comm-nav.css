@@ -1,16 +1,24 @@
 .comm-nav {
-    padding: 0 2vw;
-    border: 2px solid  rgb(0, 41, 47, .6);
+    padding: 0 3vw 3vh 3vw;
+    border: 2px solid  rgb(0, 41, 47, .4);
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 60vh;
     width: 40%;
-    background-color: rgb(0, 0, 0, .8);
+    background-color: rgb(0, 0, 0, .5);
+    border-radius: 10px 0 0 10px;
+    row-gap: 4vh;
 }
 
 .comm-nav__items {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     padding: 0;
+    row-gap: 3vh;
 }
 
 .comm-nav__item {
@@ -20,5 +28,28 @@
     font-weight: 700;
     letter-spacing: 1px;
     color: rgb(206, 206, 206);
-    padding-bottom: 14px;
+    padding-left: 1vw;
+}
+
+.comm-nav__social-link {
+
+}
+
+.comm-nav__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.comm-nav__social-icon-linkedin {
+    width: 22px;
+    height: 23px;
+}
+
+.comm-nav__social-icon-ig {
+    width: 23px;
+    height: 23px;
+    padding: 0 0 0 15px;
 }

@@ -33,20 +33,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.art-nav__social-link {
- 
+    column-gap: 1vw;
 }
 
 .art-nav__social-icon-peggy {
     background-image: url(../images/icons/blue-peggy-logo.png);
-    width: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 23px;
     height: 23px;
 }
 
 .art-nav__social-icon-ig {
+    background-image: url(../images/icons/blue-instagram-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 23px;
     height: 23px;
-    padding: 0 0 0 15px;
 }

@@ -23,7 +23,7 @@
 
 .comm-nav__item:hover {
     color: red;
-    transition: color .2s ease-in-out;
+    transition: color .3s ease-in;
 }
 
 .comm-nav__item {
@@ -41,15 +41,41 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    column-gap: 1vw;
+}
+
+.comm-nav__social-link-linkedin {
+    background: url(../images/icons/red-linkedin-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
 }
 
 .comm-nav__social-icon-linkedin {
-    width: 22px;
+    width: 23px;
+    height: 23px;
+}
+
+.comm-nav__social-icon-linkedin:hover {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+
+.comm-nav__social-link-ig {
+    background-image: url(../images/icons/red-instagram-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 23px;
     height: 23px;
 }
 
 .comm-nav__social-icon-ig {
     width: 23px;
     height: 23px;
-    padding: 0 0 0 15px;
+}
+
+.comm-nav__social-icon-ig:hover {
+    opacity: 0;
+    transition: opacity .3s ease-in;
 }

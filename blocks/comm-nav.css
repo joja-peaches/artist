@@ -21,11 +21,6 @@
     row-gap: 3vh;
 }
 
-.comm-nav__item:hover {
-    color: red;
-    transition: color .3s ease-in;
-}
-
 .comm-nav__item {
     list-style: none;
     font-family: "Jura", Arial, Helvetica, sans-serif;
@@ -34,6 +29,11 @@
     letter-spacing: 1px;
     color: rgb(206, 206, 206);
     padding-left: 1vw;
+}
+
+.comm-nav__item:hover {
+    color: red;
+    transition: color .3s ease-in;
 }
 
 .comm-nav__social {

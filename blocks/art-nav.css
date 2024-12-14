@@ -28,6 +28,11 @@
     padding-left: 1vw;
 }
 
+.art-nav__item:hover {
+    color: rgb(202, 40, 169);
+    transition: color .3s ease-in;
+}
+
 .art-nav__social {
     display: flex;
     flex-direction: row;
@@ -36,8 +41,26 @@
     column-gap: 1vw;
 }
 
+.art-nav__social-link-peggy {
+    background: url(../images/icons/pink-peggy-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
 .art-nav__social-icon-peggy {
-    background-image: url(../images/icons/blue-peggy-logo.png);
+    width: 23px;
+    height: 23px;
+}
+
+.art-nav__social-icon-peggy:hover {
+    opacity: 0;
+    transition: opacity .3s ease-in;
+}
+
+.art-nav__social-link-ig {
+    background: url(../images/icons/pink-instagram-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 23px;
@@ -45,9 +68,11 @@
 }
 
 .art-nav__social-icon-ig {
-    background-image: url(../images/icons/blue-instagram-logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 23px;
     height: 23px;
+}
+
+.art-nav__social-icon-ig:hover {
+    opacity: 0;
+    transition: opacity .3s ease-in;
 }

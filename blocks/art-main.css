@@ -16,7 +16,7 @@
     top: 14vh;
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 70vw;
     height: 70vh;
     box-sizing: border-box;
 }
@@ -24,7 +24,7 @@
 .art-main__container {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 70vw;
     height: 70vh;
     box-sizing: border-box;
 }

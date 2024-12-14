@@ -2,14 +2,21 @@
     padding: 0 2vw;
     border: 4px dashed #003899;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: 70vh;
     box-sizing: border-box;
     width: 20vw;
+    row-gap: 4vh;
 }
 
 .art-nav__items {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     padding: 0;
+    row-gap: 3vh;
 }
 
 .art-nav__item {
@@ -18,5 +25,28 @@
     font-size: 40px;
     letter-spacing: -1px;
     color: #003899;
-    padding-bottom: 8px;
+    padding-left: 1vw;
+}
+
+.art-nav__social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-nav__social-link {
+ 
+}
+
+.art-nav__social-icon-peggy {
+    background-image: url(../images/icons/blue-peggy-logo.png);
+    width: 22px;
+    height: 23px;
+}
+
+.art-nav__social-icon-ig {
+    width: 23px;
+    height: 23px;
+    padding: 0 0 0 15px;
 }

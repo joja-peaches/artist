@@ -21,6 +21,11 @@
     row-gap: 3vh;
 }
 
+.comm-nav__item:hover {
+    color: red;
+    transition: color .2s ease-in-out;
+}
+
 .comm-nav__item {
     list-style: none;
     font-family: "Jura", Arial, Helvetica, sans-serif;
@@ -31,16 +36,11 @@
     padding-left: 1vw;
 }
 
-.comm-nav__social-link {
-
-}
-
 .comm-nav__social {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 .comm-nav__social-icon-linkedin {

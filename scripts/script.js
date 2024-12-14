@@ -1,11 +1,11 @@
+// Landing page star animation and buttons
+
 const starGradient1 = document.getElementById("menu-star-1");
 const starGradient2 = document.getElementById("menu-star-2");
 const fineArtButton = document.getElementById("fine-art-button");
 const commercialButton = document.getElementById("commercial-button");
 
 let angle = 0;
-
-//star animation
 
 function animateStar1 () {
   angle = (angle + .2) % 360;

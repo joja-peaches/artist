@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 5vh 0 0;
     row-gap: 3vh;
 }
 
@@ -75,4 +75,143 @@
 .art-nav__social-icon-ig:hover {
     opacity: 0;
     transition: opacity .3s ease-in;
+}
+
+@media screen and (max-height: 630px) {
+    .art-nav__item {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-height: 470px) {
+    .art-nav__item {
+        font-size: 32px;
+    }
+
+    .art-nav__social-link-peggy {
+        width: 19px;
+        height: 19px;
+    }
+    
+    .art-nav__social-icon-peggy {
+        width: 19px;
+        height: 19px;
+    }
+    
+    .art-nav__social-link-ig {
+        width: 19px;
+        height: 19px;
+    }
+    
+    .art-nav__social-icon-ig {
+        width: 19px;
+        height: 19px;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .art-nav__item {
+        font-size: 24px;
+    }
+
+    .art-nav__social-link-peggy {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .art-nav__social-icon-peggy {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .art-nav__social-link-ig {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .art-nav__social-icon-ig {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .art-nav {
+        width: 25vw;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .art-nav__item {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .art-nav__item {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .art-nav {
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .art-nav {
+        padding: 0;
+        border: 0;
+        width: 92vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art-nav__items {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3, 1fr);
+        font-size: 14px;
+        row-gap: 2vh;
+        column-gap: 5vw;
+        padding: 7vh 0 2vh;
+    }
+
+    .art-nav__item {
+        border-top: 2px dashed #003899;
+        border-right: 2px dashed #003899;
+        border-left: 2px dashed #003899;
+        border-bottom: 2px dashed #003899;
+        text-align: center;
+        padding: 3px;
+    }
+
+    .art-nav__social {
+        column-gap: 2vw;
+    }
+
+    .art-nav__item-num-1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .art-nav__item-num-2 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .art-nav__item-num-3 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .art-nav__item-num-4 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .art-nav__item-num-5 {
+
+    }
 }

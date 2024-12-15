@@ -38,3 +38,28 @@
     margin: 0;
     padding-top: 8px;
 }
+
+@media screen and (max-width: 724px) {
+    .art-main {
+        border: 2px dashed #003899;
+    }
+
+    .art-main__wrapper {
+        position: static;
+        width: 100vw;
+        height: 100%;
+    }
+
+    .art-main__container {
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+
+    .art-main__heading {
+        position: absolute;
+        top: 0vh;
+        font-size: 32px;
+        padding-right: 2vh;
+    }
+}

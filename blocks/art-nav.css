@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 5vh 0 0;
+    padding: 0;
     row-gap: 3vh;
 }
 
@@ -175,7 +175,7 @@
         font-size: 14px;
         row-gap: 2vh;
         column-gap: 5vw;
-        padding: 7vh 0 2vh;
+        padding: 8vh 0 2vh;
     }
 
     .art-nav__item {
@@ -188,30 +188,13 @@
     }
 
     .art-nav__social {
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-inline: auto; 
+        width: fit-content;
+        bottom: 1vh;
         column-gap: 2vw;
     }
-
-    .art-nav__item-num-1 {
-        grid-column: 1;
-        grid-row: 1;
-    }
-
-    .art-nav__item-num-2 {
-        grid-column: 2;
-        grid-row: 1;
-    }
-
-    .art-nav__item-num-3 {
-        grid-column: 1;
-        grid-row: 2;
-    }
-
-    .art-nav__item-num-4 {
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .art-nav__item-num-5 {
-
-    }
+ 
 }
